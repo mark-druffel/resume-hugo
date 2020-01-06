@@ -1,0 +1,234 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#000000" #Propeller headers = #C08A5F
+    textPrimaryColor = "#525252"
+
+    [params.profile]
+        enable = true
+        name = "Mark Druffel"
+        tagline = "Consultant"
+        avatar = "my_photo_circle.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Portland, OR"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "mark.druffel@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.mark-druffel.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Competencies"
+        [[params.skills.list.items]]
+        details = "Data Strategy"
+        [[params.skills.list.items]]
+        details = "Requirements Gathering"
+        [[params.skills.list.items]]
+        details = "Information Architecture"
+        [[params.skills.list.items]]
+        details = "Data Engineering"
+        [[params.skills.list.items]]
+        details = "Analysis"
+        [[params.skills.list.items]]
+        details = "Modeling"
+        [[params.skills.list.items]]
+        details = "Data Visualisation"
+        [[params.skills.list.items]]
+        details = "Change Management"
+        [[params.skills.list.items]]
+        details = "Communication"
+
+        [[params.skills.list]]
+        title = "Tools"
+        [[params.skills.list.items]]
+        details = "R, SQL, HTML, CSS, Python, Cypher"
+        [[params.skills.list.items]]
+        details = "Tableau, PowerBI, Looker"
+        [[params.skills.list.items]]
+        details = "Hugo, Apache Airflow, Shiny Server"
+        [[params.skills.list.items]]
+        details = "Adobe CS, Gimp, Scribus"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Master of Science in Business Analytics"
+        university = "Notre Dame"
+        dates = "2016"
+        [[params.education.list]]
+        degree = "Bachelor of Business Administration"
+        university = "Ohio University"
+        dates = "2010"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Rock Climbing"
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Traveling"
+        [[params.interests.list]]
+        name = "Food / Libations"
+        [[params.interests.list]]
+        name = "Science Fiction"
+
+    [params.summary]
+        enable = true
+        text = "Data science generalist and experienced team builder with a track record of success working with all levels of an organization. Business background with significant development experinece in R, SQL, & Python, as well as an uncanny ability to communicate complex concepts to a range of audiences. Always looking for opportunities to innovate or use new technologies, but work hard to focus on the end-user & business first when approaching problems. "
+        
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Consultant"
+        dates = "2017 - Present"
+        company = "Propeller"
+        details = "Partner with clients to help them execute strategic initiatives and large scale organizational efforts. Typical engagement includes working with the client to develop a vision and structure for the team. Generally step into one of the following execution roles for the team, sometimes more than one depending on the client's needs:"
+        [[params.experience.list.items]]
+        details = "Data Strategist"
+        [[params.experience.list.items]]
+        details = "Data Analyst"
+        [[params.experience.list.items]]
+        details = "Business Analyst"
+        [[params.experience.list.items]]
+        details = "Data Engineer"
+        [[params.experience.list.items]]
+        details = "Project Manager"
+        [[params.experience.list.items]]
+        details = "Change Manager"
+        [[params.experience.list.items]]
+        details = "Product Owner"
+
+        [[params.experience.list]]
+        title = "Manager of Reporting"
+        dates = "2013 - 2016"
+        company = "Northern Trust Hege Fund Services"
+        details = "Managed a global team of analysts responsible for data and access products for the platform. Our team managed operations for active clients on the platform, implementations for new clients, and product ownership for our services. Core responsibilities for the team included:"
+        [[params.experience.list.items]]
+        details = "Designed, tested, and maintained client & internal reporting"
+        [[params.experience.list.items]]
+        details = "Performed requirements gathering, design, testing, and deployment of application and data-model development"
+        [[params.experience.list.items]]
+        details = "Developed product visions and managed the backlogs"
+        [[params.experience.list.items]]
+        details = "Performed product data analytics to inform product ownership"
+        [[params.experience.list.items]]
+        details = "Developed prototype tools in collaboration with development teams"
+        [[params.experience.list.items]]
+        details = "Configured services for new clients"
+        [[params.experience.list.items]]
+        details = "Managed permissions frameworks for the various client types"
+
+        [[params.experience.list]]
+        title = "Senior Consultant"
+        dates = "2011 - 2013"
+        company = "Plante Moran"
+        details = "Managed IT audits and risk assessments with teams of staff auditors. Primarily performed SOC audits and readiness assessments."
+
+        [[params.experience.list]]
+        title = "Staff Auditor"
+        dates = "2010 - 2011"
+        company = "Fifth Third Bank"
+        details = "Executed financial and IT audits, as well as risk assessments within several departments of the bank."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Product Data Information Architecture Alignment"
+        meta = "Fortune 100 Sportwear Company"
+        tagline = "Worked as a data strategist and data anlyst with a small team to resolve architecture & process design issues between multiple product organizations. Conducted ~250 stakeholder interviews to understand and document existing processes & data models throughout the organizations utilizing the same key, customer-facing data entity to accomplish opposing objectives. Performed analysis of product data to corroborate findings from interviews and gather use cases. Built storyboards of the use cases in order to enable stakeholders to align on the problem statement. Leveraged domain driven design to develop a to-be design proposal to address the problem statement, including domain layer data models and context mapping between functions. Coordinated with 40+ functions to socialize and validate the to-be design prior to handing off to the IT and operations teams to implement."
+
+        [[params.projects.list]]
+        title = "Organizational Metric Design & Implementation"
+        meta = "Nonprofit Healthcare Company"
+        tagline = "Designed and implemented organization metrics for an IT DevOps organization as a team of one. Performed a current state assessment of operational data by interviewing IT teams and analyzing system data. Documented findings and proposed next steps for leadership to improve data collection processes, and designed organizational metrics to enable the leadership to measure and mature existing processes (development velocity, first touch resolution rate, etc.). Developed API's to integrate legacy systems and iteratively developed interactive dashboards that enabled the teams and leadership to monitor metrics and facilitate meaningful conversations. Documented the process and facilitated training for an operational team to take ownership and move forward with the project."
+
+        [[params.projects.list]]
+        title = "Legacy BI Product Analysis"
+        meta = "Northern Trust"
+        tagline = "Analyzed and communicated findings regarding technical and process debt associated with the legacy reporting platform to inform budgeting and development prioritization. Developed stored procedures which normalized and persisted log & configuration data from the reporting platform, which was then used to generate performance and client usage metrics. Analyzed the metrics over time and documented findings in a detailed assessment outlining system inefficiencies, workflow inefficiencies, process risks, and low ROI client commitments. The assessment was presented to the Enterprise Steering Committee and Executive Management to obtain funding for a next generation platform."
+        
+        [[params.projects.list]]
+        title = "harvestR"
+        meta = "Open Source"
+        tagline = "Developed an open source API wrapper for the time tracking software, Harvest. Built to enable dynamic reporting to be built directly off of the system and to simplify extracting data to the data lake."
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/mark-druffel"
+        title = "mark-druffel"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/markdruffel"
+        title = "markdruffel"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/MarkDruffel"
+        title = "@MarkDruffel"
+
+
+[params.footer]
+    copyright = ""
+
+
