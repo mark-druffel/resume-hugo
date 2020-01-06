@@ -1,14 +1,18 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://infallible-golick-d59dc1.netlify.com/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #googleAnalytics = "UA-XXXXXXX-Y"
 
+[author]
+  name = "Mark Druffel"
+  
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    #author = "CowboySmall"
+    #description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
     primaryColor = "#000000" #Propeller headers = #C08A5F
     textPrimaryColor = "#525252"
