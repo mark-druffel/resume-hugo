@@ -121,7 +121,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.summary]
         enable = true
-        text = "Data science generalist and experienced team builder with a track record of success working with all levels of the organization. Business background with significant development experience in R, SQL, & Python, as well as an uncanny ability to communicate complex concepts to a range of audiences. Always looking for opportunities to innovate or use new technologies but work hard to focus on the end-user & business first when approaching problems."
+        text = "Data science generalist and experienced team builder with a track record of success working with all levels of the organization. Business background with significant development experience in R, SQL, & others, as well as an uncanny ability to communicate complex concepts to a wide range of audiences. Always seeking opportunities to innovate or use new technologies while keeping user experience and business problems front and center."
         
     [params.experience]
         enable = true
