@@ -67,7 +67,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.skills.list.items]]
         details = "Tableau, PowerBI, Looker"
         [[params.skills.list.items]]
-        details = "Hugo, Apache Airflow, Shiny Server"
+        details = "AWS, Hugo, Apache Airflow, Shiny Server"
         [[params.skills.list.items]]
         details = "Adobe CS, Gimp, Scribus"
 
