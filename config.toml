@@ -115,13 +115,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.interests.list]]
         name = "Traveling"
         [[params.interests.list]]
-        name = "Food / Libations"
+        name = "Food / Beer"
         [[params.interests.list]]
-        name = "Science Fiction"
+        name = "Board / Video Games"
 
     [params.summary]
         enable = true
-        text = "Data science generalist and experienced team builder with a track record of success working with all levels of an organization. Business background with significant development experinece in R, SQL, & Python, as well as an uncanny ability to communicate complex concepts to a range of audiences. Always looking for opportunities to innovate or use new technologies, but work hard to focus on the end-user & business first when approaching problems. "
+        text = "Data science generalist and experienced team builder with a track record of success working with all levels of the organization. Business background with significant development experience in R, SQL, & Python, as well as an uncanny ability to communicate complex concepts to a range of audiences. Always looking for opportunities to innovate or use new technologies but work hard to focus on the end-user & business first when approaching problems."
         
     [params.experience]
         enable = true
@@ -130,11 +130,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title = "Consultant"
         dates = "2017 - Present"
         company = "Propeller"
-        details = "Partner with clients to help them execute strategic initiatives and large scale organizational efforts. Typical engagement includes working with the client to develop a vision and structure for the team. Generally step into one of the following execution roles for the team, sometimes more than one depending on the client's needs:"
+        details = "Partner with clients to help them execute strategic initiatives and large-scale organizational efforts. Typical engagement includes working with the client to develop a vision and structure for the team. Generally, step into one of the following execution roles for the team, sometimes more than one depending on the client’s needs:"
         [[params.experience.list.items]]
         details = "Data Strategist"
         [[params.experience.list.items]]
-        details = "Data Analyst"
+        details = "Data Analyst / Scientist"
         [[params.experience.list.items]]
         details = "Business Analyst"
         [[params.experience.list.items]]
@@ -154,7 +154,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.experience.list.items]]
         details = "Designed, tested, and maintained client & internal reporting"
         [[params.experience.list.items]]
-        details = "Performed requirements gathering, design, testing, and deployment of application and data-model development"
+        details = "Performed requirements gathering, design, testing, and deployment of app & data-model development"
         [[params.experience.list.items]]
         details = "Developed product visions and managed the backlogs"
         [[params.experience.list.items]]
