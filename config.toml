@@ -121,7 +121,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     [params.summary]
         enable = true
-        text = "Data science generalist and experienced team builder with a track record of success working with all levels of the organization. Business background with significant development experience in R, SQL, & others, as well as an uncanny ability to communicate complex concepts to a wide range of audiences. Always seeking opportunities to innovate or use new technologies while keeping user experience and business problems front and center."
+        text = "Data science generalist and experienced team builder with a track record of success working with all levels of the organization. Business background with significant development experience in R, SQL, & others, as well as an exceptional ability to communicate complex concepts to a wide range of audiences. Always seeking opportunities to innovate or use new technologies while keeping user experience and business problems front and center."
         
     [params.experience]
         enable = true
@@ -130,21 +130,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         title = "Consultant"
         dates = "2017 - Present"
         company = "Propeller"
-        details = "Partner with clients to help them execute strategic initiatives and large-scale organizational efforts. Typical engagement includes working with the client to develop a vision and structure for the team. Generally, step into one of the following execution roles for the team, sometimes more than one depending on the client’s needs:"
+        details = "Partner with clients to help them execute strategic initiatives and large-scale organizational efforts. Typical engagement includes working with the client to develop a vision and structure for the team. Execute in any of the following roles for client teams:"
         [[params.experience.list.items]]
-        details = "Data Strategist"
+        details = "Data Analyst, Data Scientist"
         [[params.experience.list.items]]
-        details = "Data Analyst / Scientist"
+        details = "Dashboard Developer, Data Engineer"
         [[params.experience.list.items]]
-        details = "Business Analyst"
+        details = "Business Analyst, Data Strategist"
         [[params.experience.list.items]]
-        details = "Data Engineer"
-        [[params.experience.list.items]]
-        details = "Project Manager"
-        [[params.experience.list.items]]
-        details = "Change Manager"
-        [[params.experience.list.items]]
-        details = "Product Owner"
+        details = "Change Manager, Project Manager"
 
         [[params.experience.list]]
         title = "Manager of Reporting"
