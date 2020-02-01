@@ -178,18 +178,23 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         [[params.projects.list]]
         title = "Product Data Information Architecture Alignment"
         meta = "Fortune 100 Sportwear Company"
-        tagline = "Worked as a data strategist and data anlyst with a small team to resolve architecture & process design issues between multiple product organizations. Conducted ~250 stakeholder interviews to understand and document existing processes & data models throughout the organizations utilizing the same key, customer-facing data entity to accomplish opposing objectives. Performed analysis of product data to corroborate findings from interviews and gather use cases. Built storyboards of the use cases in order to enable stakeholders to align on the problem statement. Leveraged domain driven design to develop a to-be design proposal to address the problem statement, including domain layer data models and context mapping between functions. Coordinated with 40+ functions to socialize and validate the to-be design prior to handing off to the IT and operations teams to implement."
+        tagline = "Worked as a data strategist and data anlyst with a small team to resolve architecture & process design issues between multiple product organizations. Conducted ~250 stakeholder interviews to understand and document existing processes & data models throughout the organizations utilizing the same key, customer-facing data entity to accomplish opposing objectives. Performed analysis of product data to corroborate findings from interviews and gather use cases. Built storyboards of the use cases in order to enable stakeholders to agree upon the problem statement and leveraged domain driven design to develop a proposal."
 
         [[params.projects.list]]
         title = "Organizational Metric Design & Implementation"
         meta = "Nonprofit Healthcare Company"
-        tagline = "Designed and implemented organization metrics for an IT DevOps organization as a team of one. Performed a current state assessment of operational data by interviewing IT teams and analyzing system data. Documented findings and proposed next steps for leadership to improve data collection processes, and designed organizational metrics to enable the leadership to measure and mature existing processes (development velocity, first touch resolution rate, etc.). Developed API's to integrate legacy systems and iteratively developed interactive dashboards that enabled the teams and leadership to monitor metrics and facilitate meaningful conversations. Documented the process and facilitated training for an operational team to take ownership and move forward with the project."
+        tagline = "Designed and implemented organization metrics for an IT DevOps organization. Performed a current state assessment of operational data by interviewing IT teams and analyzing system data. Documented findings and proposed next steps to improve data collection processes and enable organizational KPIs. Developed an MVP system that integrated disparate systems data and developed interative dashboards that enabled the teams and leadership to review their KPIs for discussion. Documented the process and facilitated training for an operational team to take ownership of the project."
 
         [[params.projects.list]]
         title = "Legacy BI Product Analysis"
         meta = "Northern Trust"
-        tagline = "Analyzed and communicated findings regarding technical and process debt associated with the legacy reporting platform to inform budgeting and development prioritization. Developed stored procedures which normalized and persisted log & configuration data from the reporting platform, which was then used to generate performance and client usage metrics. Analyzed the metrics over time and documented findings in a detailed assessment outlining system inefficiencies, workflow inefficiencies, process risks, and low ROI client commitments. The assessment was presented to the Enterprise Steering Committee and Executive Management to obtain funding for a next generation platform."
+        tagline = "Analyzed and communicated findings regarding technical and process debt associated with the legacy reporting platform to inform budgeting and development prioritization. Developed stored procedures that normalized and persisted log & configuration data from the reporting platform and tracked resourcing data across various projects throughout the year. Used the data collected to outline system inefficiencies, workflow inefficiencies, process risks, and low ROI client commitments. The report led to the Executive Leadership team funding a new development team to build a next generation reporting application."
         
+        [[params.projects.list]]
+        title = "Data Pipeline Development"
+        meta = "Services Firm"
+        tagline = "Developed an data pipepline to ETL data from cloud software into a multi-layered data lake using several AWS services, R, Python, & Apache-Airflow."
+
         [[params.projects.list]]
         title = "harvestR"
         meta = "Open Source"
